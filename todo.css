@@ -1,0 +1,77 @@
+body{
+    color:#8e4812e1;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9dbb3e9;
+}
+.main-heading{
+    /* justify-content: center;; */
+    /* padding: 2px 2px; */
+    margin: 5px 10px;
+    text-align: center;
+}
+.hr{
+    /* margin: 0px 10px; */
+    border: 0.5px solid #a278054e;
+}
+.todo-container{
+    justify-content: center;
+    margin: 20px;
+    display: grid;
+    grid-template-columns: 250px 180px 90px;
+    column-gap:10px;
+    row-gap: 15px;
+}
+.grid-container{
+    /* font-size: 18px; */
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 250px 180px 90px;
+    column-gap:10px;
+    row-gap: 15px;
+    margin: 27px;   
+
+}
+.todo-input,.todo-date{
+    border-end-end-radius: 15px;
+    border: none;
+    font-size: 18px;
+    padding: 10px 3px;
+}
+.todo-button{
+    font-size: 20px;
+    padding: 10px 5px;
+    background-color: #4caf4fc8;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+}
+.todo-Date{
+    /* justify-content: center;
+    text-align: center; */
+    color:#34715d;
+    font-size: 15px;
+    /* padding: 10px 3px; */
+}
+.delete-button{
+    /* justify-content: center;
+    align-items: center; */
+    height: 20px;
+    width: 60px;
+    background-color: #b80f0381;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    /* padding: 0px 2px; */
+    /* margin: 7px 1px; */
+}
+.todo-item{
+    font-size: 18px;
+    color:black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
